@@ -1,0 +1,35 @@
+table {
+   border-collapse: collapse;
+   border: 2px solid black;
+}
+
+th {
+   border: 2px solid black;
+}
+
+td {
+   height: 50px;
+   width: 100px;
+   border: 2px solid black;
+}
+.firstrow{
+   background-color: #108f8f;
+}
+.secondrow{
+   background-color: #f5f510;
+}
+#fh:hover{
+   background-color: #E09A70;
+}
+#sh:hover{
+   background-color: #A265E0;
+}
+#Pgear{
+   position: relative;
+   top: 10px;
+   left: 0;
+}
+#Tgear{
+   display: inline-block;
+   transform: translateY(30px);
+}
